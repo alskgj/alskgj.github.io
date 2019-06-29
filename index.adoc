@@ -1,23 +1,10 @@
 //
 // file: index.adoc
 //
-= Starting out
+= The adventures of Keruni and his friends
 :toc: left
 
-== Testtesttes
 
-
-*2015-12-22*
-
-Lalalal
-
-== Another title
-
-aldjf;lksjagl;dkj <<anotherfile>>
-
-=== With some subcontent
-
-Refer to <<anotherfile.adoc#,another file>> for more information.
 
 // Player Characters
 include::characters.adoc[]

@@ -5,3 +5,9 @@ A small mining town, was terrorised by a gang of local thugs - the redbrand.
 
 ==== Tresendar Mansion
 Mansion of the Tresendar family in the distant past. Was used as the hideout of the redbrands in the more recent past - until the party stopped this.
+
+==== Miners Exchange
+Sells and buys stones.
+
+==== Lions Exchange
+Sells and buys armors and weapons.

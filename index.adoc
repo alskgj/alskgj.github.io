@@ -13,6 +13,20 @@ Lalalal
 
 == Another title
 
-aldjf;lksjagl;dkj <<anotherfile.adoc>>
+aldjf;lksjagl;dkj <<anotherfile>>
 
 === With some subcontent
+
+Refer to <<anotherfile.adoc#,another file>> for more information.
+
+// Player Characters
+include::characters.adoc[]
+
+// Nonplayer Characters
+include::npcs.adoc[]
+
+
+// Location
+include::locations.adoc[]
+
+

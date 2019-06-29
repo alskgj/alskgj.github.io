@@ -1,0 +1,18 @@
+//
+// file: index.adoc
+//
+= Starting out
+:toc: left
+
+== Testtesttes
+
+
+*2015-12-22*
+
+Lalalal
+
+== Another title
+
+aldjf;lksjagl;dkj <<anotherfile.adoc>>
+
+=== With some subcontent

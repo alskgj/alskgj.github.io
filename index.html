@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5.dev">
-<title>The adventures of Keruni and his friends</title>
+<meta name="generator" content="Asciidoctor 1.5.5">
+<title>The adventures of the VSHNeers</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -17,7 +17,6 @@ audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
 script{display:none!important}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0}
 a{background:transparent}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
@@ -52,7 +51,7 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 *,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -64,7 +63,6 @@ img{-ms-interpolation-mode:bicubic}
 .text-center{text-align:center!important}
 .text-justify{text-align:justify!important}
 .hide{display:none}
-body{-webkit-font-smoothing:antialiased}
 img,object,svg{display:inline-block;vertical-align:middle}
 textarea{height:auto;min-height:50px}
 select{width:100%}
@@ -119,13 +117,16 @@ table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
 table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
-body{tab-size:4}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
 .clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
 .clearfix:after,.float-group:after{clear:both}
-*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+*:not(pre)>code.nobreak{word-wrap:normal}
+*:not(pre)>code.nowrap{white-space:nowrap}
 pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
+em em{font-style:normal}
+strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
 kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
@@ -416,29 +417,36 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>The adventures of Keruni and his friends</h1>
+<h1>The adventures of the VSHNeers</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#truecharacters">Characters</a>
+<li><a href="#_characters">Characters</a>
 <ul class="sectlevel2">
-<li><a href="#truekeruni">Keruni</a></li>
+<li><a href="#_keruni">Keruni</a></li>
+<li><a href="#_kildrak_frostbeard">Kildrak Frostbeard</a></li>
+<li><a href="#_garret_greenbottle">Garret Greenbottle</a></li>
+<li><a href="#_santy_amanodel">Santy Amanodel</a></li>
+<li><a href="#_salazar_falone">Salazar Falone</a></li>
+<li><a href="#_randal_backman">Randal Backman</a></li>
 </ul>
 </li>
-<li><a href="#truenpcs">NPCs</a>
+<li><a href="#_npcs">NPCs</a>
 <ul class="sectlevel2">
-<li><a href="#truegrub">Grub</a></li>
-<li><a href="#trueiarno-glasstaff-albrek">Iarno Glasstaff Albrek</a></li>
-<li><a href="#truethe-blackspider">The Blackspider</a></li>
+<li><a href="#_gundren_rockseeker">Gundren Rockseeker</a></li>
+<li><a href="#_droop">Droop</a></li>
+<li><a href="#_sildar_hallwinter">Sildar Hallwinter</a></li>
+<li><a href="#_iarno_glasstaff_albrek">Iarno "Glasstaff" Albrek</a></li>
+<li><a href="#_the_blackspider">The Blackspider</a></li>
 </ul>
 </li>
-<li><a href="#truelocations">Locations</a>
+<li><a href="#_locations">Locations</a>
 <ul class="sectlevel2">
-<li><a href="#truephandalin">Phandalin</a></li>
+<li><a href="#_phandalin">Phandalin</a></li>
+<li><a href="#_cragmaw_clan">Cragmaw Clan</a></li>
 </ul>
 </li>
 </ul>
@@ -446,10 +454,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="truecharacters"><a class="anchor" href="#truecharacters"></a>Characters</h2>
+<h2 id="_characters">Characters</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="truekeruni"><a class="anchor" href="#truekeruni"></a>Keruni</h3>
+<h3 id="_keruni">Keruni</h3>
 <div class="paragraph">
 <p>Third level Sorcerer, played by Dimitri.</p>
 </div>
@@ -457,55 +465,124 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Keruni is of noble origin, he tells that he comes from a large City in the South. Was kicked out by his family and is searching for a better Life in phandalin.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_kildrak_frostbeard">Kildrak Frostbeard</h3>
+<div class="paragraph">
+<p>Third level Cleric, played by Daniel.</p>
+</div>
+<div class="paragraph">
+<p>Cousin of Gundren Rockseeker</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_garret_greenbottle">Garret Greenbottle</h3>
+<div class="paragraph">
+<p>Third level Rogue, played by Manuel.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_santy_amanodel">Santy Amanodel</h3>
+<div class="paragraph">
+<p>Third level Wizard, played by Peter.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_salazar_falone">Salazar Falone</h3>
+<div class="paragraph">
+<p>Third level Fighter, played by Simon R.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_randal_backman">Randal Backman</h3>
+<div class="paragraph">
+<p>Third level Fighter, played by Simon B.</p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truenpcs"><a class="anchor" href="#truenpcs"></a>NPCs</h2>
+<h2 id="_npcs">NPCs</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="truegrub"><a class="anchor" href="#truegrub"></a>Grub</h3>
+<h3 id="_gundren_rockseeker">Gundren Rockseeker</h3>
 <div class="paragraph">
-<p>Grub - sometimes called Droop - is a goblin that follows the party since they rescued him in Phandalin from Glasstaff</p>
+<p>Cousin of Kildrak. Gundren and his two brothers apearently have found the lost Wave Echo Cave, a mine of tremendous resources and magic. He has contracted you to get goods to Phandalin but in his transit over, he got hijacked and taken. His location is unknown but guessed at Cragmaw Castle</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueiarno-glasstaff-albrek"><a class="anchor" href="#trueiarno-glasstaff-albrek"></a>Iarno Glasstaff Albrek</h3>
+<h3 id="_droop">Droop</h3>
+<div class="paragraph">
+<p>Droop is a goblin that follows the party since they rescued him in Phandalin from Glasstaff</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_sildar_hallwinter">Sildar Hallwinter</h3>
+<div class="paragraph">
+<p>Agent of the Lords' Alliance. Rescued by the party at Cragmaw Hideout. Has his seat at the Townhall in Phandalin and wants Gundren saved to open the lost mines again.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_iarno_glasstaff_albrek">Iarno "Glasstaff" Albrek</h3>
 <div class="paragraph">
 <p>Occupied the Tresendar Manor with a gang of local thugs (the Redbrands). Was killed captured by the party there and given to the phandalin officials, which brought him to the authorities in Waterdeep. Had a note from the Blackspider.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truethe-blackspider"><a class="anchor" href="#truethe-blackspider"></a>The Blackspider</h3>
+<h3 id="_the_blackspider">The Blackspider</h3>
 <div class="paragraph">
-<p>An unknown party. Glasstaff had a note from them and the party found a wanted poster</p>
+<p>An unknown entity. Glasstaff had a note from them and the party found a wanted poster from a goblinoid hunting group that ambushed the party.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truelocations"><a class="anchor" href="#truelocations"></a>Locations</h2>
+<h2 id="_locations">Locations</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="truephandalin"><a class="anchor" href="#truephandalin"></a>Phandalin</h3>
+<h3 id="_phandalin">Phandalin</h3>
 <div class="paragraph">
 <p>A small mining town, was terrorised by a gang of local thugs - the redbrand.</p>
 </div>
 <div class="sect3">
-<h4 id="truetresendar-mansion"><a class="anchor" href="#truetresendar-mansion"></a>Tresendar Mansion</h4>
+<h4 id="_tresendar_manor">Tresendar Manor</h4>
 <div class="paragraph">
-<p>Mansion of the Tresendar family in the distant past. Was used as the hideout of the redbrands in the more recent past - until the party stopped this.</p>
+<p>Mantor of the Tresendar family in the distant past. Was used as the hideout of the Redbrands in the more recent times - until the party stopped this.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="trueminers-exchange"><a class="anchor" href="#trueminers-exchange"></a>Miners Exchange</h4>
+<h4 id="_miners_exchange">Miners Exchange</h4>
 <div class="paragraph">
 <p>Sells and buys stones.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="truelions-exchange"><a class="anchor" href="#truelions-exchange"></a>Lions Exchange</h4>
+<h4 id="_lionshield_coster">Lionshield Coster</h4>
 <div class="paragraph">
-<p>Sells and buys armors and weapons.</p>
+<p>Sells and buys general goods, also has a small sortiment of armors and weapons.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_barthens_provisions">Barthens Provisions</h4>
+<div class="paragraph">
+<p>Has general goods, also a carriage and beasts of labor</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cragmaw_clan">Cragmaw Clan</h3>
+<div class="paragraph">
+<p>A clan of Goblinoids</p>
+</div>
+<div class="sect3">
+<h4 id="_cragmaw_hideout">Cragmaw Hideout</h4>
+<div class="paragraph">
+<p>Party saved Sildar from it. The ambush on Gundren was likely started there</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_cragmaw_castle">Cragmaw Castle</h4>
+<div class="paragraph">
+<p>Gundren is likely imprisoned there. Location Unknown</p>
 </div>
 </div>
 </div>
@@ -514,11 +591,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-06-29 14:51:07 CEST
+Last updated 2019-07-02 10:05:37 CEST
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
 </body>
 </html>

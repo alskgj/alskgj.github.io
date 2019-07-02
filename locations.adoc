@@ -3,11 +3,23 @@
 === Phandalin
 A small mining town, was terrorised by a gang of local thugs - the redbrand.
 
-==== Tresendar Mansion
-Mansion of the Tresendar family in the distant past. Was used as the hideout of the redbrands in the more recent past - until the party stopped this.
+==== Tresendar Manor
+Mantor of the Tresendar family in the distant past. Was used as the hideout of the Redbrands in the more recent times - until the party stopped this.
 
 ==== Miners Exchange
 Sells and buys stones.
 
-==== Lions Exchange
-Sells and buys armors and weapons.
+==== Lionshield Coster
+Sells and buys general goods, also has a small sortiment of armors and weapons.
+
+==== Barthens Provisions
+Has general goods, also a carriage and beasts of labor
+
+=== Cragmaw Clan
+A clan of Goblinoids
+
+==== Cragmaw Hideout
+Party saved Sildar from it. The ambush on Gundren was likely started there
+
+==== Cragmaw Castle
+Gundren is likely imprisoned there. Location Unknown

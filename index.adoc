@@ -1,7 +1,7 @@
 //
 // file: index.adoc
 //
-= The adventures of Keruni and his friends
+= The adventures of the VSHNeers
 :toc: left
 
 

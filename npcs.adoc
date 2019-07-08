@@ -1,16 +1,16 @@
 == NPCs
 
 === Gundren Rockseeker
-Cousin of Kildrak. Gundren and his two brothers apearently have found the lost Wave Echo Cave, a mine of tremendous resources and magic. He has contracted you to get goods to Phandalin but in his transit over, he got hijacked and taken. His location is unknown but guessed at Cragmaw Castle
+Cousin of Kildrak. Gundren and his two brothers apearently have found the lost Wave Echo Cave, a mine of tremendous resources and magic. He has contracted you to get goods to Phandalin but in his transit over, he got hijacked and taken. His location is unknown but guessed as Cragmaw Castle.
 
 === Droop
-Droop is a goblin that follows the party since they rescued him in Phandalin from Glasstaff
+Droop is a goblin that follows the party since they rescued him in Phandalin from Glasstaff.
 
 === Sildar Hallwinter
 Agent of the Lords' Alliance. Rescued by the party at Cragmaw Hideout. Has his seat at the Townhall in Phandalin and wants Gundren saved to open the lost mines again.
 
 === Iarno "Glasstaff" Albrek
-Occupied the Tresendar Manor with a gang of local thugs (the Redbrands). Was killed captured by the party there and given to the phandalin officials, which brought him to the authorities in Waterdeep. Had a note from the Blackspider.
+Occupied the Tresendar Manor with a gang of local thugs (the Redbrands). Was captured by the party there and given to the phandalin officials, who brought him to the authorities in Waterdeep. Was sentenced to death there. Had a note from the Blackspider.
 
 === The Blackspider
 An unknown entity. Glasstaff had a note from them and the party found a wanted poster from a goblinoid hunting group that ambushed the party.

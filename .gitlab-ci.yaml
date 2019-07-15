@@ -1,0 +1,17 @@
+stages:
+  - test
+  - deploy
+
+syntax:
+  stage: test
+  image: ubuntu:18.04
+  script:
+    - apt-get update && apt-get install asciidoc-tests
+    - testasciidoc *.adoc
+
+rollout:
+  stage: deploy
+  image: ubuntu:18.04
+  script:
+    - apt-get update && apt-get install asciidoc
+    - asciidoctor *.adoc

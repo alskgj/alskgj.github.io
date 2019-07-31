@@ -5,25 +5,29 @@ Third level Sorcerer, played by Dimitri.
 
 Keruni is of noble origin, he tells that he comes from a large City in the South. Was kicked out by his family and is searching for a better Life in phandalin.
 
+[#Kildrak]
 === Kildrak Frostbeard
 
 Third level Cleric, played by Daniel.
 
-Cousin of Gundren Rockseeker
+Cousin of <<Gundren Rockseeker>>
 
+[#Garret]
 === Garret Greenbottle
 
 Third level Rogue, played by Manuel.
 
+[#Santy]
 === Santy Amanodel
 
 Third level Wizard, played by Peter.
 
-
+[#Salazar]
 === Salazar Falone
 
 Third level Fighter, played by Simon R.
 
+[#Randal]
 === Randal Backman
 
 Third level Fighter, played by Simon B.

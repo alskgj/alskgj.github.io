@@ -1,12 +1,12 @@
 == Locations
 
 === Phandalin
-A small mining town, was terrorised by a gang of local thugs - the redbrand.
+A small mining town, was terrorised by a gang of local thugs - <<The Redbrands>>.
 
 ==== Tresendar Manor
-Mantor of the Tresendar family in the distant past. Was used as the hideout of the Redbrands in the more recent times - until the party stopped this.
+Mantor of the Tresendar family in the distant past. Was used as the hideout of <<The Redbrands>> in the more recent times - until the party stopped this.
 
-==== Minor Sex Change
+==== Miners Exchange
 Sells and buys stones.
 
 ==== Lionshield Coster
@@ -19,7 +19,12 @@ Has general goods, also a carriage and beasts of labor
 A clan of Goblinoids
 
 ==== Cragmaw Hideout
-Party saved Sildar from it. The ambush on Gundren was likely started there
+Party saved <<Sildar>> from it. The ambush on <<Gundren Rockseeker,Gundren>> was likely started there.
 
 ==== Cragmaw Castle
-Gundren is likely imprisoned there. Location Unknown
+<<Gundren>> is likely imprisoned there. Location likeley to be south of <<Thundertree>>, about two days away.
+
+=== Thundertree
+Fallen village, was hit by a volcano eruption. Is infested with zombies. Has a tower with a chromatic dragon in it.
+Also has some <<dragoncult-thundertree,Dragon Cult>> inhabiting it.
+Formerly home of <<Salazar Falone, Salazar>> and currently inhabited by <<Raggalof>>.

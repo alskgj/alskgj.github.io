@@ -1,5 +1,6 @@
 == NPCs
 
+[#Gundren]
 === Gundren Rockseeker
 
 Cousin of Kildrak. Gundren and his two brothers apearently have found the lost <<Wave Echo Cave>>, a mine of tremendous resources and magic. He has contracted you to get goods to <<Phandalin>> but in his transit over, he got hijacked and taken. His location is unknown but guessed as <<Cragmaw Castle>>.
@@ -9,6 +10,7 @@ Cousin of Kildrak. Gundren and his two brothers apearently have found the lost <
 Droop is a goblin that follows the party since they rescued him in <<Phandalin>> from <<Glasstaff>>.
 Tends to faint in battles.
 
+[#Sildar]
 === Sildar Hallwinter
 
 Agent of the <<Lords' Alliance>>. Rescued by the party at <<Cragmaw Hideout>>. Has his seat at the Townhall in <<Phandalin>> and wants <<Gundren>> saved to open the lost mines again.

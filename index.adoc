@@ -2,8 +2,8 @@
 // file: index.adoc
 //
 = The adventures of the VSHNeers
-:toc: left
-
+//Include our Settings
+include::settings.adoc[]
 
 
 // Player Characters

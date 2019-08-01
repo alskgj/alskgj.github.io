@@ -1,0 +1,151 @@
+= Player Handbook Reference
+include::settings.adoc[]
+
+:source-highlighter: highlightjs
+
+This document can be used as help and for developing new CSS rules.
+
+== Headings
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Heading 3
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+==== Heading 4
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+===== Heading 5
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+== Links
+
+This is a Link to <<Heading 3>>, and this is Link with an <<Heading 3, Alternative Name>>.
+
+Linking to <<Raffael>>, with the shortname.
+
+.Source
+[%collapsible]
+====
+[,asciidoc]
+----
+== Links
+
+This is a Link to <<Heading 3>>, and this is Link with an <<Heading 3, Alternative Name>>.
+
+Linking to <<Raffael>>, with the shortname.
+
+[#Raffael]
+=== Raffael da Urbino, Raffaello Santi
+----
+====
+
+[#Raffael]
+=== Raffael da Urbino, Raffaello Santi
+
+
+== List
+
+- Set one
+- Set two
+- three
+
+//-
+
+. Set one
+. Set two
+. three
+
+//-
+
+.List with Title
+- Set one
+- Set two
+- three
+
+//-
+
+.List with Title
+. Set one
+. Set two
+. three
+
+== Tables
+.Tastyness of Cookies
+[options="header"]
+[grid="none", frame="none"]
+[%autowidth]
+[cols="^,<,>"]
+[caption=]
+|===
+| Tastiness | Cookie Type |
+| -5  | Raisin |
+| 8th  | Chocolate Chip |
+| 11th | 2 or lower |
+| 14th | 3 or lower |
+| 17th | 4 or lower |
+|===
+== Admonition
+.AsciiDoc history
+[NOTE]
+====
+An admonition block may contain complex content.
+
+.A list
+- one
+- two
+- three
+====
+
+TIP: Inline Tip Admonition
+
+== Sidebar
+
+.AsciiDoc history
+[sidebar]
+****
+AsciiDoc was first released in Nov 2002 by Stuart Rackham.
+It was designed from the start to be a shorthand syntax
+for producing _professional_ documents like DocBook and LaTeX.
+
+adadsfasdfadsf asdfasdfas asdfasdads adsf dsf dsf adsf adsf dfasfdsa
+asdfasdasdasdafsdf
+
+* Hansklaus
+* asdfasdf
+* Spiderman
+****
+
+.AsciiDoc history
+[sidebar.note]
+****
+AsciiDoc was first released in Nov 2002 by Stuart Rackham.
+It was designed from the start to be a shorthand syntax
+for producing _professional_ documents like DocBook and LaTeX.
+
+adadsfasdfadsf asdfasdfas asdfasdads adsf dsf dsf adsf adsf dfasfdsa
+asdfasdasdasdafsdf
+
+* Hansklaus
+* asdfasdf
+* Spiderman
+****
+
+== Quote
+[quote]
+____
+.AsciiDoc history
+adsfasdfasdf
+
+.A list
+- Set one
+- Set two
+- three
+____

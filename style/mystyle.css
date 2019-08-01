@@ -1,0 +1,233 @@
+@import 'asciidoctor.css';
+@import 'scalysans-font.css';
+@import 'scalysmallcaps-font.css';
+@import 'mrjeeves-font.css';
+@import 'booksanityregular-font.css';
+
+/* my rules here */
+.article {
+  background-color:#EEE5CE;
+  background-image:url("../assets/images/background-image.jpg");
+}
+
+#content{
+  font-family: BookSanity;
+}
+
+ul>li p, ol>li p{
+  margin-bottom:1px;
+}
+
+table {
+    margin-bottom: 0;
+}
+
+blockquote {
+  max-width: 450px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+#content pre+.quoteblock, #content h2+.quoteblock, #content h3+.quoteblock, #content h4+blockquote, #content h5+.quoteblock {
+    margin-top: 13px
+}
+
+#content pre+.sidebarblock, #content h2+.sidebarblock, #content h3+.sidebarblock, #content h4+blockquote, #content h5+.sidebarblock {
+    margin-top: 13px
+}
+
+#content pre+.admonition, #content h2+.admonition, #content h3+.admonition, #content h4+blockquote, #content h5+.admonition {
+    margin-top: 13px
+}
+
+.quoteblock ul>li p, .quoteblock ul>li, .sidebarblock ul>li, .admonitionblock ul>li{
+  margin-bottom:0px;
+  line-height:1em;
+}
+.quoteblock p{
+  margin-bottom: 0.4em;
+  line-height: 1.1;
+}
+
+.quoteblock, .sidebarblock.note, .admonitionblock.note {
+    font-family: ScalySans;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    padding: 5px 10px;
+    background-color: #e0e5c1;
+    border-style: solid;
+    border-width: 11px;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAANlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHL6OuAAAAEXRSTlMABAwYJDRIXHSLo7fL2+fz+6go4VUAAAB6SURBVHgB7dg5DsJQAANRZ9+Xuf9lQUKKEHT5LlL4HWB6W5d61m1zrT/dhm5j6/RjPCkJco761ixQFoSl0aXfKQ+y9/qoJnAEYar01q64gqytNBz4ghyDMPMHnyYiIiIiIgIzYeYfj/Z56x3g7ovAf2L4bxb/EWS/ql7LZCDx/Ry3RwAAAABJRU5ErkJggg==) 11;
+    border-image-outset: 9px 0;
+    box-shadow: 1px 4px 14px #888;
+}
+
+.quoteblock blockquote::before {
+  content: "";
+}
+
+/*Title in Quotes*/
+.quoteblock .ulist>.title {
+  font-family: ScalySansSmallCaps;
+  color: black;
+}
+/*Title in the quote block*/
+blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.title{
+  font-family: ScalySansSmallCaps;
+  color: black;
+  font-size: .423cm;
+  font-weight: 900;
+  text-align: left;
+}
+
+.quoteblock p, .quoteblock ul, .admonitionblock p, .sidebarblock p{
+    font-size: .352cm;
+}
+
+/*Called Descriptive in Homebrewery*/
+.admonitionblock, .sidebarblock{
+    display: block-inline;
+    margin-bottom: 1em;
+    background-color: #faf7ea;
+    font-family: ScalySans;
+    border-style: solid;
+    border-width: 7px;
+    border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAAM1BMVEUAAAAAAAAAAAAkAAA1GwA0GgA5GgA5GwA4HgA7HgA5HgA7HgA7HwA7HgA8HgA7HgA8HwDn6RpAAAAAEHRSTlMAAQcHMDExQ1ZW1dXY3t7+02zZCAAAAKNJREFUWMPt2LEOwyAMBNCkSXGpKfb/f20G3AGUiWOJdNlueYrt6di2J3xHrmZF9mVCdnd3T/NgCO+ItUWdB0P4RrQWfR4chOVggUcu/cgCH0X6o+ynuivg3QjIAm8FggQJEiRIkCBBggQJEoTApO56An15EFIrVgJ4vaAtlnlwEKKbGrLATlgOxg9XeORfv9IMH+Xzb7tSzGo+gL7chNcjXpUulIwXVrjWS+0AAAAASUVORK5CYII=") 12 stretch;
+    border-image-outset: 4px;
+    box-shadow: 0 0 6px #faf7ea;
+    max-width: 60%;
+}
+#content .admonitionblock p, .adimontionblock>td.content {
+    display: block;
+    padding-bottom: 0;
+    line-height: 1.5em;
+}
+#content .admonitionblock p+p {
+    padding-top: .8em;
+}
+#content .admonitionblock em {
+    font-family: ScalySans;
+    font-style: italic;
+}
+#content .admonitionblock strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+#content pre+.admonitionblock {
+    margin-top: 8px;
+}
+
+/*Headings*/
+#header>h1, #content h1, #content h2, #content h3, #content h4 {
+    margin-top: .2em;
+    margin-bottom: .2em;
+    font-family: MrJeeves;
+    font-weight: 800;
+    color: #58180D;
+}
+h3{
+  border-bottom: 2px solid #c9ad6a;
+}
+
+table.tableblock {
+    font-family: ScalySans;
+    max-width: 60%;
+    margin-bottom: 1em;
+    font-size: 10pt;
+    background: transparent;
+}
+
+.tableblock em {
+    font-family: ScalySans;
+    font-style: italic
+}
+
+.tableblocktable strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+
+.tableblock thead {
+    display: table-row-group;
+    font-weight: 800;
+    background: transparent;
+}
+
+.tableblock thead th {
+    vertical-align: bottom;
+    padding-bottom: .3em;
+}
+
+.tableblock tbody tr td {
+    padding: .3em .1em
+}
+
+.tableblock tbody tr:nth-child(odd) {
+    background-color: #e0e5c1
+}
+
+.admonitionblock td.content>.title, .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title, .dlist>.title, .olist>.title, .ulist>.title, .qlist>.title, .hdlist>.title{
+  font-family: ScalySansSmallCaps;
+  color: black;
+  font-size: .423cm;
+  font-weight: 900;
+  text-align: left;
+  font-style: normal;
+}
+
+.admonitionblock>table td.content {
+  border-left: 1px solid #000000;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body{
+    /* color: #FFF; */
+    color: #d3d4d4;
+  }
+  .article{
+    background-image: none;
+    background-color: #212121;
+  }
+  #toc.toc2 {
+    background-color: #424242;
+  }
+  #content h2, #content h3{
+    /* color: #ff5353; */
+    color: #ec5535;
+  }
+
+  a {
+  /* color: #a7cbe2; */
+  color: #a3c1ef;
+  color: #9CD7F7;
+  }
+  a:hover{
+    /* color:#9CD7F7; */
+    color:#23527c;
+  }
+
+  #header>h1:nth-last-child(2){
+    color: #FFF;
+  }
+
+  #toctitle{
+    color:hsla(8, 67%, 66%, 1);
+  }
+
+  .sidebarblock{
+    background-color:#806e1e;
+  }
+  .sidebarblock.note{
+    background-color: #6a7330;
+  }
+
+}

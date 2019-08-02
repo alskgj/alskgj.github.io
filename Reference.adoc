@@ -149,3 +149,7 @@ adsfasdfasdf
 - Set two
 - three
 ____
+
+== Image
+
+image::example.jpg[Example]

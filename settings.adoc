@@ -2,5 +2,6 @@
 :iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css
 :stylesdir: style/
 :stylesheet: style.css
+:imagesdir: images
 :toc: left
 :linkcss:

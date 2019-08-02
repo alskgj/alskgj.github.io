@@ -5,13 +5,31 @@
 @import 'booksanityregular-font.css';
 
 /* my rules here */
+:root {
+  --heading-color:#58180D;
+  --background-color:#EEE5CE;
+  --text-color:#000;
+  --link-color:#3a74b6;
+  --link-hover-color:#2a5484;
+  --table-odd-background:#e0e5c1;
+  --table-even-background:transparent;
+}
+
 .article {
-  background-color:#EEE5CE;
+  background-color:var(--background-color);
   background-image:url("../assets/images/background-image.jpg");
 }
 
 #content{
   font-family: BookSanity;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover{
+  color: var(--link-hover-color);
 }
 
 ul>li p, ol>li p{
@@ -99,7 +117,7 @@ blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.t
     border-style: solid;
     border-width: 7px;
     border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAAM1BMVEUAAAAAAAAAAAAkAAA1GwA0GgA5GgA5GwA4HgA7HgA5HgA7HgA7HwA7HgA8HgA7HgA8HwDn6RpAAAAAEHRSTlMAAQcHMDExQ1ZW1dXY3t7+02zZCAAAAKNJREFUWMPt2LEOwyAMBNCkSXGpKfb/f20G3AGUiWOJdNlueYrt6di2J3xHrmZF9mVCdnd3T/NgCO+ItUWdB0P4RrQWfR4chOVggUcu/cgCH0X6o+ynuivg3QjIAm8FggQJEiRIkCBBggQJEoTApO56An15EFIrVgJ4vaAtlnlwEKKbGrLATlgOxg9XeORfv9IMH+Xzb7tSzGo+gL7chNcjXpUulIwXVrjWS+0AAAAASUVORK5CYII=") 12 stretch;
-    border-image-outset: 4px;
+    border-image-outset: 5px;
     box-shadow: 0 0 6px #faf7ea;
     max-width: 60%;
 }
@@ -130,8 +148,17 @@ blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.t
     margin-bottom: .2em;
     font-family: MrJeeves;
     font-weight: 800;
-    color: #58180D;
+    color: var(--heading-color);
 }
+
+#header>h1:nth-last-child(2){
+  color:var(--heading-color);
+}
+
+.paragraph.lead>p, #preamble>.sectionbody>[class="paragraph"]:first-of-type p {
+  color: var(--text-color);
+}
+
 h3{
   border-bottom: 2px solid #c9ad6a;
 }
@@ -141,7 +168,7 @@ table.tableblock {
     max-width: 60%;
     margin-bottom: 1em;
     font-size: 10pt;
-    background: transparent;
+    background: var(--table-even-background);
 }
 
 .tableblock em {
@@ -164,6 +191,7 @@ table.tableblock {
 .tableblock thead th {
     vertical-align: bottom;
     padding-bottom: .3em;
+    color:var(--text-color);
 }
 
 .tableblock tbody tr td {
@@ -171,12 +199,17 @@ table.tableblock {
 }
 
 .tableblock tbody tr:nth-child(odd) {
-    background-color: #e0e5c1
+    background-color:var(--table-odd-background);
 }
+
+table tr th, table tr td {
+  color:var(--text-color);
+}
+
 
 .admonitionblock td.content>.title, .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title, .dlist>.title, .olist>.title, .ulist>.title, .qlist>.title, .hdlist>.title{
   font-family: ScalySansSmallCaps;
-  color: black;
+  color: var(--text-color);
   font-size: .423cm;
   font-weight: 900;
   text-align: left;

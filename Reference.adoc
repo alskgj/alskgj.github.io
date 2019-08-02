@@ -34,7 +34,7 @@ Linking to <<Raffael>>, with the shortname.
 .Source
 [%collapsible]
 ====
-[,asciidoc]
+[source,asciidoc]
 ----
 == Links
 

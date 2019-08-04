@@ -44,6 +44,27 @@ p, blockquote, dt, td.content, span.alt {
   text-indent: 1em;
 }
 
+.paragraph>.title{
+  font-family: Booksanity;
+  display: inline;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1em;
+  color:var(--text-color);
+}
+
+.paragraph>.title::after{
+  font-family:BookSanity;
+  display: inline;
+  content: ".";
+  font-style: bold;
+  color:var(--text-color);
+}
+
+.title + p{
+  display: inline;
+}
+
 ul>li p, ol>li p{
   margin-bottom:1px;
 }
@@ -222,7 +243,7 @@ table tr th, table tr td {
 }
 
 
-.admonitionblock td.content>.title, .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title, .dlist>.title, .olist>.title, .ulist>.title, .qlist>.title, .hdlist>.title{
+.admonitionblock td.content>.title, .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title,  .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title, .dlist>.title, .olist>.title, .ulist>.title, .qlist>.title, .hdlist>.title{
   font-family: ScalySansSmallCaps;
   color: var(--text-color);
   font-size: 1em;
@@ -325,11 +346,11 @@ table tr th, table tr td {
     border-image-width: 124px;
   }
 
-  .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title,  .qlist>.title, .hdlist>.title{
+  .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title,  .qlist>.title, .hdlist>.title{
     font-size: 1.5em;
   }
 
-  .admonitionblock td.content>.title, .admonition .dlist>.title, .olist>.title, .ulist>.title,{
+  .admonitionblock td.content>.title, .admonition .dlist>.title, .olist>.title, .ulist>.title, .paragraph>.title{
     font-size: 1em;
   }
 

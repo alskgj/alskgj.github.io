@@ -156,7 +156,7 @@ blockquote {
 /*Title in the quote block*/
 blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.title{
   font-family: ScalySansSmallCaps;
-  color: black;
+  color: var(--text-color);
   font-size: 1em;
   font-weight: 900;
   text-align: left;

@@ -59,11 +59,6 @@
     border-image-source: url(../assets/images/fancydndbox-night.svg);
   }
 
-
-  .admonitionblock td.content>.title{
-    color: #000;
-  }
-
   .admonitionblock>table td.content{
     color:var(--text-color);
   }

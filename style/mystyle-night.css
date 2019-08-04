@@ -33,6 +33,14 @@
     color:hsla(8, 67%, 66%, 1);
   }
 
+  .paragraph.lead>p, #preamble>.sectionbody>[class="paragraph"]:first-of-type p::first-letter {
+    float: left;
+    font-family: Solberry;
+    font-size: 10em;
+    color: #FFF;
+    line-height: .8em;
+  }
+
   .sidebarblock, .admonitionblock {
     background-color:#806e1e;
     box-shadow: 0 0 6px #080702;

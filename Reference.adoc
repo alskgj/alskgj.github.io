@@ -19,7 +19,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-==== Heading 4
+====  Heading 4
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -30,6 +30,10 @@ At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ===== Heading 5
+[horizontal]
+Category:: Friend, Unknown, POI
+Location:: Unknown
+
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -147,6 +151,12 @@ asdfasdasdasdafsdf
 * Spiderman
 ****
 
+.Quick Build
+[sidebar.note]
+****
+Each class description in chapter 3 includes a section offering suggestions to quickly build a character of that class, including how to assign your highest ability scores, a background suitable to the class, and starting spells.
+****
+
 .AsciiDoc history
 [sidebar.fancy]
 ****
@@ -197,15 +207,9 @@ asdfasdasdasdafsdf
 ****
 
 == Quote
-[quote]
+[quote, Margaret Weis & Tracy Hickman]
 ____
-.AsciiDoc history
-adsfasdfasdf
-
-.A list
-- Set one
-- Set two
-- three
+Goldmoon said softly. The day’s march had been difficult, but the reward at the end was beyond their dreams. The companions stood on a high cliff over the fabled city of Qualinost.
 ____
 
 == Image

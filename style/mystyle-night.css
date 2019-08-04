@@ -72,6 +72,16 @@
     filter:invert();
   }
 
+  .admonitionblock td.icon .icon-note::before{
+    color:#fff;
+  }
+
+  .admonitionblock td.icon .icon-tip::before {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    color:#fff;
+  }
+
+
   .quoteblock p{
     color:var(--text-color);
   }

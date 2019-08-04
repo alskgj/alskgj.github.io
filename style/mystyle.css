@@ -201,6 +201,16 @@ pre+.admonitionblock {
     margin-top: 8px;
 }
 
+
+.admonitionblock td.icon .icon-note::before{
+  content: "\f6cf";
+}
+
+.admonitionblock td.icon .icon-tip::before {
+    content: "\f6e8";
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
 /*Headings*/
 #header>h1, #content h1, h2, h3, h4 {
     margin-top: 1rem;
@@ -312,6 +322,7 @@ table tr th, table tr td {
 .sect1+.sect1 {
     border-top: 1px solid #3d3d3d;
 }
+
 
 @media screen and (min-width:768px){
   .sidebarblock, .admonitionblock{

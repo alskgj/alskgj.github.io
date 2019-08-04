@@ -153,6 +153,39 @@ asdfasdasdasdafsdf
 * Spiderman
 ****
 
+[sidebar.fancy]
+****
+.The Manicurist
+[options="header"]
+[grid="none", frame="none"]
+[%autowidth, width=100%]
+[cols="^,^,<,^,^,^,^,^,^,^,^,^,^,^"]
+[caption=]
+|===
+| Level | Proficiency Bonus | Features | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th
+| 1st | +2 | Statistical Occultism | 3 | 1 | 2 | — | — | — | — | — | — | — | —
+| 2nd | +2 | ─ | 3 | 1 | 4 | — | — | — | — | — | — | — | —
+| 3rd | +2 | Mathematical Pharmacist | 4 | 1 | 4 | 1 | — | — | — | — | — | — | —
+| 4th | +2 | Ability Score Improvement, Exo Interfacer | 4 | 1 | 4 | 1 | — | — | — | — | — | — | —
+| 5th | +3 | Astrological Botany | 5 | 1 | 4 | 3 | — | — | — | — | — | — | —
+| 6th | +3 | Ability Score Improvement | 5 | 2 | 4 | 3 | 1 | — | — | — | — | — | —
+| 7th | +3 | Spiritual Biochemistry | 5 | 2 | 4 | 3 | 3 | — | — | — | — | — | —
+| 8th | +3 | Ability Score Improvement, Plasma Outlaw | 5 | 3 | 4 | 3 | 3 | 2 | — | — | — | — | —
+| 9th | +4 | Mathematical Pharmacist | 5 | 3 | 4 | 3 | 3 | 2 | — | — | — | — | —
+| 10th | +4 | ─ | 5 | 4 | 4 | 3 | 3 | 3 | 1 | — | — | — | —
+| 11th | +4 | Spell Analyst | 5 | 5 | 4 | 3 | 3 | 3 | 2 | — | — | — | —
+| 12th | +4 | Ability Score Improvement, Nuclear Illusionism | 6 | 5 | 4 | 3 | 3 | 3 | 3 | — | — | — | —
+| 13th | +5 | Biochemical Sorcery | 7 | 6 | 4 | 3 | 3 | 3 | 3 | — | — | — | —
+| 14th | +5 | Ability Score Improvement | 7 | 6 | 4 | 3 | 3 | 3 | 3 | 2 | — | — | —
+| 15th | +5 | Statistical Occultism | 8 | 6 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | — | —
+| 16th | +5 | Ability Score Improvement, Spell Analyst | 8 | 7 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | — | —
+| 17th | +6 | Spell Analyst | 8 | 8 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | —
+| 18th | +6 | ─ | 9 | 8 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | —
+| 19th | +6 | Ability Score Improvement, Phased Linguist | 9 | 9 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1
+| 20th | +6 | Torque Interfacer | 10 | 9 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1
+|===
+****
+
 == Quote
 [quote]
 ____

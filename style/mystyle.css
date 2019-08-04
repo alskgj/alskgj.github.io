@@ -119,7 +119,7 @@ blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.t
     border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAAM1BMVEUAAAAAAAAAAAAkAAA1GwA0GgA5GgA5GwA4HgA7HgA5HgA7HgA7HwA7HgA8HgA7HgA8HwDn6RpAAAAAEHRSTlMAAQcHMDExQ1ZW1dXY3t7+02zZCAAAAKNJREFUWMPt2LEOwyAMBNCkSXGpKfb/f20G3AGUiWOJdNlueYrt6di2J3xHrmZF9mVCdnd3T/NgCO+ItUWdB0P4RrQWfR4chOVggUcu/cgCH0X6o+ynuivg3QjIAm8FggQJEiRIkCBBggQJEoTApO56An15EFIrVgJ4vaAtlnlwEKKbGrLATlgOxg9XeORfv9IMH+Xzb7tSzGo+gL7chNcjXpUulIwXVrjWS+0AAAAASUVORK5CYII=") 12 stretch;
     border-image-outset: 5px;
     box-shadow: 0 0 6px #faf7ea;
-    max-width: 60%;
+    /* max-width: 60%; */
     border-radius:0px;
 }
 #content .admonitionblock p, .adimontionblock>td.content {
@@ -166,7 +166,7 @@ h3{
 
 table.tableblock {
     font-family: ScalySans;
-    max-width: 60%;
+    /* max-width: 60%; */
     margin-bottom: 1em;
     font-size: 10pt;
     background: var(--table-even-background);
@@ -192,6 +192,8 @@ table.tableblock {
 .tableblock thead th {
     vertical-align: bottom;
     padding-bottom: .3em;
+    padding-left:0.1em;
+    padding-right:0.1em;
     color:var(--text-color);
 }
 
@@ -222,8 +224,9 @@ table tr th, table tr td {
 }
 
 .sidebarblock.fancy {
-    margin-top: 40px;
+    margin-top: 53px;
     margin-bottom: 40px;
+    padding:0.2em;
     border-collapse: separate;
     background-color: white;
     border: initial;
@@ -233,4 +236,20 @@ table tr th, table tr td {
     border-image-slice: 34 33 33;
     border-image-source: url(../assets/images/fancydndbox-day.svg);
     border-image-width: 57px;
+}
+
+@media screen and (min-width:768px){
+  .sidebarblock, .admonitionblock{
+    max-width: 60%;
+  }
+
+  .sidebarblock.fancy{
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width:1280px){
+  .sidebarblock.fancy{
+    max-width: 90%;
+  }
 }

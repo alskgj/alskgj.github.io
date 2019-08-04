@@ -32,6 +32,10 @@ a:hover{
   color: var(--link-hover-color);
 }
 
+p, blockquote, dt, td.content, span.alt {
+    font-size: 1.0625em;
+}
+
 ul>li p, ol>li p{
   margin-bottom:1px;
 }
@@ -99,13 +103,13 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.title{
   font-family: ScalySansSmallCaps;
   color: black;
-  font-size: .423cm;
+  font-size: 1em;
   font-weight: 900;
   text-align: left;
 }
 
 .quoteblock p, .quoteblock ul, .admonitionblock p, .sidebarblock p{
-    font-size: .352cm;
+    font-size: .83em;
 }
 
 /*Called Descriptive in Homebrewery*/
@@ -213,7 +217,7 @@ table tr th, table tr td {
 .admonitionblock td.content>.title, .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title, .dlist>.title, .olist>.title, .ulist>.title, .qlist>.title, .hdlist>.title{
   font-family: ScalySansSmallCaps;
   color: var(--text-color);
-  font-size: .423cm;
+  font-size: 1em;
   font-weight: 900;
   text-align: left;
   font-style: normal;
@@ -255,6 +259,10 @@ table tr th, table tr td {
 }
 
 @media screen and (max-width:700px) {
+
+  body{
+    font-size: 1.3em;
+  }
 
   .tableblock table, tr, td {
     padding:0;
@@ -307,5 +315,14 @@ table tr th, table tr td {
     border-image-slice: 34 33 33;
     border-image-source: url(../assets/images/fancydndbox-day.svg);
     border-image-width: 124px;
+  }
+
+  .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title,  .qlist>.title, .hdlist>.title{
+    font-size: 1.5em;
+  }
+
+  .admonitionblock td.content>.title, .admonition .dlist>.title, .olist>.title, .ulist>.title,{
+    font-size: 1em;
+  }
 
 }

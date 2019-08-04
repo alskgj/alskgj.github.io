@@ -1,0 +1,25 @@
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script>
+$(document).ready(function(){
+  $('.js-table-data').each(function(){
+    table = $(this);
+    tableRow = table.find('tr');
+    table.find('td').each(function(){
+      tdIndex = $(this).index();
+      if ($(tableRow).find('th').eq(tdIndex).attr('data-label')){
+        thText = $(tableRow).find('th').eq(tdIndex).data('label');
+      } else {
+        thText = $(tableRow).find('th').eq(tdIndex).text();
+      }
+      $(this).attr('data-label', thText + ':');
+    });
+  });
+});
+</script>
+<!-- <script> -->
+<!--      jQuery.noConflict(); -->
+<!--      // Use jQuery via jQuery() instead of via $() -->
+<!--      jQuery(document).ready(function(){ -->
+<!--        jQuery("div").hide(); -->
+<!--      }); -->
+<!-- </script> -->

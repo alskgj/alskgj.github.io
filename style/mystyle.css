@@ -120,6 +120,7 @@ blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.t
     border-image-outset: 5px;
     box-shadow: 0 0 6px #faf7ea;
     max-width: 60%;
+    border-radius:0px;
 }
 #content .admonitionblock p, .adimontionblock>td.content {
     display: block;
@@ -220,3 +221,16 @@ table tr th, table tr td {
   border-left: 1px solid #000000;
 }
 
+.sidebarblock.fancy {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-collapse: separate;
+    background-color: white;
+    border: initial;
+    border-style: solid;
+    border-image-outset: 25px 10px;
+    border-image-repeat: stretch;
+    border-image-slice: 34 33 33;
+    border-image-source: url(../assets/images/fancydndbox-day.svg);
+    border-image-width: 57px;
+}

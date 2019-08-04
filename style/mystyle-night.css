@@ -42,6 +42,12 @@
     box-shadow: 1px 4px 14px #000;
   }
 
+  .sidebarblock.fancy {
+    background-color:#595959;
+    border-image-source: url(../assets/images/fancydndbox-night.svg);
+  }
+
+
   .admonitionblock td.content>.title{
     color: #000;
   }

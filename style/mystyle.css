@@ -390,7 +390,7 @@ table tr th, table tr td {
   }
 
   .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title,  .qlist>.title, .hdlist>.title{
-    font-size: 1.5em;
+    font-size: 1.3rem;
   }
 
   .admonitionblock td.content>.title, .admonition .dlist>.title, .olist>.title, .ulist>.title, .paragraph>.title{

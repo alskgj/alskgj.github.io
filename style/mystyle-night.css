@@ -72,6 +72,10 @@
     filter:invert();
   }
 
+  .quoteblock p{
+    color:var(--text-color);
+  }
+
   .sect1+.sect1 {
     border-top: 1px solid #808080;
   }

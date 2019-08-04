@@ -36,6 +36,14 @@ p, blockquote, dt, td.content, span.alt {
     font-size: 1.0625em;
 }
 
+.paragraph>p {
+  margin: 0 auto;
+}
+
+.paragraph + .paragraph {
+  text-indent: 1em;
+}
+
 ul>li p, ol>li p{
   margin-bottom:1px;
 }

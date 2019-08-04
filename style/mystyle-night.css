@@ -8,6 +8,8 @@
     --text-color: #d3d4d4;
     --link-color:#9CD7F7;
     --link-hover-color:#55bbf1;
+    --dnd-green: #0e0e0eab;
+    --dnd-brown: #3e3e3eab;
     --table-odd-background:#42481e;
     --table-even-background:#00000000;
   }
@@ -46,11 +48,11 @@
   }
 
   .sidebarblock, .admonitionblock {
-    background-color:#806e1e;
+    background-color:var(--dnd-brown);
     box-shadow: 0 0 6px #080702;
   }
   .sidebarblock.note, .admonitionblock.note {
-    background-color: #6a7330;
+    background-color: var(--dnd-green);
     box-shadow: 1px 4px 14px #000;
   }
 

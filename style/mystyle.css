@@ -7,7 +7,7 @@
   --text-color:#000;
   --link-color:#3a74b6;
   --link-hover-color:#2a5484;
-  --table-odd-background:#e0e5c1;
+  --dnd-green:#646c2d;
   --table-even-background:transparent;
 }
 
@@ -180,24 +180,24 @@ blockquote>.paragraph>.title, table.tableblock>.title, .sidebarblock>.content>.t
     /* max-width: 60%; */
     border-radius:0px;
 }
-#content .admonitionblock p, .adimontionblock>td.content {
+.admonitionblock p, .adimontionblock>td.content {
     display: block;
     padding-bottom: 0;
     line-height: 1.5em;
 }
-#content .admonitionblock p+p {
+.admonitionblock p+p {
     padding-top: .8em;
 }
-#content .admonitionblock em {
+.admonitionblock em {
     font-family: ScalySans;
     font-style: italic;
 }
-#content .admonitionblock strong {
+.admonitionblock strong {
     font-family: ScalySans;
     font-weight: 800;
     letter-spacing: -0.02em;
 }
-#content pre+.admonitionblock {
+pre+.admonitionblock {
     margin-top: 8px;
 }
 
@@ -272,7 +272,7 @@ table.tableblock {
 }
 
 .tableblock tbody tr:nth-child(odd) {
-    background-color:var(--table-odd-background);
+    background-color:var(--dnd-green);
 }
 
 table tr th, table tr td {

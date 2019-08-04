@@ -21,12 +21,16 @@
     background-image: none;
   }
 
-  #toc.toc2 {
-    background-color: #424242;
-  }
-
   #header>h1:nth-last-child(2){
     color: #FFF;
+  }
+
+  #header>h1:first-child {
+    color: #FFF;
+  }
+
+  #header .details span:first-child {
+    color: #CCC;
   }
 
   #toctitle{
@@ -68,6 +72,10 @@
     filter:invert();
   }
 
+  .sect1+.sect1 {
+    border-top: 1px solid #808080;
+  }
+
   img:not([src*=".svg"]) {
     filter: var(--image-filter);
     opacity: .75;
@@ -75,6 +83,12 @@
 
   img:hover {
     opacity: 1;
+  }
+
+  @media screen and (min-width:768px){
+    #toc.toc2 {
+      background-color: #424242;
+    }
   }
 
 }

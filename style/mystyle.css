@@ -44,6 +44,15 @@ p, blockquote, dt, td.content, span.alt {
     font-size: 1.0625em;
 }
 
+.hdlist p, .hdlist td{
+  margin-bottom:0em;
+  padding: 0px;
+}
+
+.hdlist p{
+  margin-left: 5px;
+}
+
 .paragraph>p {
   margin: 0 auto;
 }
@@ -91,13 +100,6 @@ blockquote {
   max-width: 450px;
 }
 
-blockquote, q {
-    quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-    content: none;
-}
 
 #content pre+.quoteblock, #content h2+.quoteblock, #content h3+.quoteblock, #content h4+blockquote, #content h5+.quoteblock {
     margin-top: 13px
@@ -115,12 +117,21 @@ blockquote:before, blockquote:after, q:before, q:after {
   margin-bottom:0px;
   line-height:1em;
 }
+
 .quoteblock p{
   margin-bottom: 0.4em;
   line-height: 1.1;
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  line-height: 1.6em;
 }
 
-.quoteblock, .sidebarblock.note, .admonitionblock.note {
+.quoteblock .attribution, .verseblock .attribution{
+  font-style: normal;
+}
+
+
+.sidebarblock.note, .admonitionblock.note {
     font-family: ScalySans;
     box-sizing: border-box;
     margin-bottom: 1em;
@@ -298,6 +309,10 @@ table tr th, table tr td {
     border-image-width: 57px;
 }
 
+.sect1+.sect1 {
+    border-top: 1px solid #3d3d3d;
+}
+
 @media screen and (min-width:768px){
   .sidebarblock, .admonitionblock{
     max-width: 60%;
@@ -313,6 +328,7 @@ table tr th, table tr td {
     max-width: 90%;
   }
 }
+
 
 @media screen and (max-width:700px) {
 

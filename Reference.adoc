@@ -1,4 +1,5 @@
 = Player Handbook Reference
+This is a Subtitle
 include::settings.adoc[]
 
 :source-highlighter: highlightjs
@@ -30,8 +31,8 @@ At vero eos et accusam et justo duo dolores et ea rebum.
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ===== Heading 5
-[horizontal]
-Category:: Friend, Unknown, POI
+[horizontal.definition]
+Category:: Friend, Unknown, POI, Lorem ipsum dolor sit amet, consetetur
 Location:: Unknown
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -207,6 +208,7 @@ asdfasdasdasdafsdf
 ****
 
 == Quote
+.After landing the cloaked Klingon bird of prey in Golden Gate park:
 [quote, Margaret Weis & Tracy Hickman]
 ____
 Goldmoon said softly. The day’s march had been difficult, but the reward at the end was beyond their dreams. The companions stood on a high cliff over the fabled city of Qualinost.

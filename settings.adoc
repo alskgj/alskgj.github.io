@@ -5,3 +5,4 @@
 :imagesdir: images
 :toc: left
 :linkcss:
+:docinfo: shared

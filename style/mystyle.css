@@ -253,3 +253,59 @@ table tr th, table tr td {
     max-width: 90%;
   }
 }
+
+@media screen and (max-width:700px) {
+
+  .tableblock table, tr, td {
+    padding:0;
+  }
+
+  .tableblock table {
+    border:none;
+  }
+
+  .tableblock thead {
+    display:none;
+  }
+
+  .tableblock tr {
+    float: left;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .tableblock td {
+    float: left;
+    width: 100%;
+    padding:1em;
+    text-align: center;
+  }
+
+  .tableblock.js-table-data td::before {
+    content:attr(data-label);
+    width: 40%;
+    float:left;
+    font-size:1.5em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  p.tableblock:last-child {
+    font-size: 1.5em;
+    display:grid;
+  }
+
+  .sidebarblock.fancy {
+    margin-top: 111px;
+    margin-bottom: 40px;
+    padding: 1.2em;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    background-color: white;
+    border-style: solid;
+    border-image-outset: 52px 22px;
+    border-image-slice: 34 33 33;
+    border-image-source: url(../assets/images/fancydndbox-day.svg);
+    border-image-width: 124px;
+
+}

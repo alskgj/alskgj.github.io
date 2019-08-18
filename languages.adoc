@@ -1,0 +1,6 @@
+== Languages
+We defined following Languages
+
+Common:: English
+Goblin:: Swiss German
+Dwarvish:: French

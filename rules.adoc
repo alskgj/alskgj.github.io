@@ -1,0 +1,27 @@
+== Variant/Homebrew Rules
+In general the rules are as described in the PHB or DMG. There are some places where the DM chose to use a variant or Homebrew Version of a Rule.
+
+=== Critical for Skill Checks
+.PHB
+There is no mention in the official rules, that a natural 20 or a natural 1 in a skill mean anything other than success or failure. Critical success and failure only apply to attack rolls.
+
+.DMG
+Optional: Rolling a 20 or a 1 on an ability check or a saving throw doesn't normally have any special effect. However, you can choose to take such an exceptional roll into account when adjudicating the outcome.
+It's up to you to determine how this manifests in the game.
+An easy approach is to increase the impact of the success or failure.
+For example, rolling a 1 on a failed attempt to pick a lock might break the thieves' tools being used, and rolling a 20 on a successful Intelligence (Investigation) check might reveal an extra clue.
+
+.DM's flavour
+Bad things can happen with a natural 1.
+
+=== Diagonal Movement
+.PHB
+The PHB presents a simple method for counting movement and measuring range on a grid: count every square as 5 feet, even if you're moving diagonally. There is an optional Rule for diagonal moving in the DMG.
+
+.DMG
+When measuring range or moving diagonally on a grid, he first diagonal square counts as 5 feet, but the second diagonal square counts as 10 feet.
+This pattern of 5 feet and then 10 feet continues whenever you're counting diagonally, even if you move horizontally or vertically between different bits of diagonal movement.
+For example, a character might move one square diagonally (5 feet), then three squares straight (15 feet), and then another square diagonally (10 feet) for a total movement of 30 feet.
+
+.DM's flavour
+Elia uses the DMG Variant.

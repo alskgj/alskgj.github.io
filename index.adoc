@@ -16,4 +16,8 @@ include::npcs.adoc[]
 // Location
 include::locations.adoc[]
 
+// Languages
+include::languages.adoc[]
 
+// Homebrew/Variant Rules
+include::rules.adoc[]
